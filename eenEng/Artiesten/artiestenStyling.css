@@ -275,6 +275,10 @@ nav{
 .facebook{
   margin-left: 365px;
 }
+
+h1{
+  margin-bottom: 50px;
+}
 }
 
 @media (max-width: 600px){
