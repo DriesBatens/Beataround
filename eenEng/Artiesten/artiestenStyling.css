@@ -1,0 +1,385 @@
+body{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  font-family: helvetica;
+  background-image: url("../Afbeeldingen/achtergrond.png");
+  background-size: 100%;
+  background-repeat: repeat-y;
+
+}
+
+
+.logo{
+  background-image: url("../Afbeeldingen/logo.gif");
+  background-size: 100%;
+  height: 155px;
+  width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.blue{
+  background-color: rgb(96, 193, 201);
+  height: 80px;
+  margin-top: -40px;
+}
+
+.orange{
+  background-color: rgb(240, 131, 28);
+  height: 80px;
+  margin-top: 10px;
+}
+
+.roze{
+  margin-top: -40px;
+  background-color: rgb(224, 73, 148);
+  height: 80px;
+}
+
+nav{
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 30px;
+}
+
+li{
+  display: inline;
+  color: white;
+
+}
+
+
+a{
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+  font-size: 20px;
+}
+
+a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.home{
+  border: 5px solid rgb(96, 193, 201);
+  height: auto;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(235, 209, 0);
+}
+
+.didi{
+  width: 600px;
+  margin-bottom: 50px;
+}
+
+.Duo{
+  width: 560px;
+  margin-left: 600px;
+    margin-bottom: 50px;
+}
+
+.DJLicious{
+width: 600px;
+margin-bottom: 50px;
+
+}
+
+.TanzActiv{
+  width: 560px;
+  margin-left: 600px;
+}
+
+
+h1{
+  font-family: 'Concert One', cursive;
+  font-size: 40pt;
+  text-shadow:  1px  1px 2px black, 1px -1px 2px black, -1px  1px 2px black, -1px -1px 2px black;
+  color: rgb(96, 193, 201);
+  margin-bottom: 15px;
+}
+
+h2{
+    font-size: 22pt;
+    font-family: 'Concert One', cursive;
+    text-decoration: underline;
+    line-height: 30px;
+    color: rgb(96, 193, 201);
+    margin-bottom: 10px;
+}
+
+p{
+  font-family: 'Lato', sans-serif;
+  font-size: 13pt;
+  line-height: 30px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.grootte{
+  width: 1000px;
+  height: auto;
+}
+
+.fotoD{
+  background-image: url("./Afbeeldingen Artiesten/Bibi.jpg");
+  height: 300px;
+  width: 300px;
+  background-size: 100%;
+  margin-left: 700px;
+  margin-top: -400px;
+  float: right;
+  border: 5px solid black;
+}
+
+.duoFoto{
+  height: 300px;
+  width: 500px;
+  background-size: 100%;
+  background-image: url("./Afbeeldingen Artiesten/Duol.jpg");
+  float: left;
+  margin-top: -400px;
+  border: 5px solid black;
+}
+
+.fotoDj{
+  background-image: url("./Afbeeldingen Artiesten/dj.jpg");
+  height: 300px;
+  width: 450px;
+  background-size: 100%;
+  float: right;
+  margin-top: -380px;
+  margin-right: -80px;
+  border: 5px solid black;
+}
+
+.fotoTanz{
+  height: 340px;
+  width: 350px;
+  background-size: 100%;
+  background-image: url("./Afbeeldingen Artiesten/TanzActiv.jpg");
+  float: left;
+  margin-left: 90px;
+  margin-top: -390px;
+  border: 5px solid black;
+}
+
+footer{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.facebook{
+  background-image: url("../Afbeeldingen/facebook.gif");
+  background-size: 100%;
+  height: 70px;
+  width: 90px;
+  margin-left: 555px;
+  margin-top: -40px;
+}
+
+@media (max-width: 1000px){
+
+body{
+  width: 800px;
+}
+
+nav{
+  width: 800px;
+  padding-top: 30px;
+}
+
+.didi{
+  width: 400px;
+}
+
+.fotoD{
+  margin-left: 420px;
+  margin-top: -500px;
+  float: none;
+}
+
+.Duo{
+  width: 385px;
+  margin-bottom: 50px;
+  margin-top: 200px;
+  margin-left: 375px;
+  text-align: justify;
+}
+
+.duoFoto{
+  height: 200px;
+  width: 350px;
+  margin-top: -390px;
+  float: left;
+}
+
+.duoDoel{
+  width: 760px;
+  margin-left: -375px;
+}
+
+.duoTitel{
+  width: 760px;
+  float: left;
+  margin-left: -370px;
+}
+
+.DJLicious{
+  width: 385px;
+  margin-bottom: 250px;
+  margin-top: 10px;
+  margin-left: 5px;
+  text-align: justify;
+}
+
+.fotoDj{
+  height: 190px;
+  width: 325px;
+  float: none;
+  margin-left: 420px;
+  margin-top: -590px;
+  float: none;
+}
+
+.djDoel{
+  width: 750px;
+}
+
+.TanzActiv{
+  width: 385px;
+  margin-bottom: 50px;
+  margin-top: 250px;
+  margin-left: 375px;
+  text-align: justify;
+}
+
+.breder{
+  margin-left: -150px;
+  margin-bottom: 70px;
+}
+
+.fotoTanz{
+  height: 190px;
+  width: 200px;
+  margin-top: -390px;
+  margin-left: 5px;
+}
+
+.facebook{
+  margin-left: 365px;
+}
+}
+
+@media (max-width: 600px){
+  body{
+    width: 500px;
+  }
+
+  .home{
+    text-align: center;
+    height: 3250px;
+  }
+
+
+  li{
+    display: block;
+  }
+
+  nav{
+    width: 400px;
+    padding-top: 0px;
+  }
+
+  .blue{
+    height: 220px;
+  }
+  .didi{
+    width: 450px;
+  }
+
+  .fotoD{
+    margin-left: 75px;
+    margin-top: 0px;
+    float: none;
+  }
+
+  .Duo{
+    width: 450px;
+    margin-left: 0px;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .duoFoto{
+    height: 200px;
+    width: 350px;
+    margin-top: 0px;
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 40px;
+  }
+
+  .duoDoel{
+    width: 450px;
+    margin-left: 0px;
+  }
+
+  .duoTitel{
+    width: 450px;
+    float: none;
+    margin-left: 0px;
+  }
+
+  .DJLicious{
+    width: 450px;
+    margin-bottom: 250px;
+    margin-top: 300px;
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .fotoDj{
+    height: 190px;
+    width: 325px;
+    float: none;
+    margin-left: 60px;
+    margin-top: -200px;
+    float: none;
+  }
+
+  .djDoel{
+    width: 450px;
+    margin-left: 0px;
+  }
+
+  .TanzActiv{
+    width: 450px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .breder{
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+
+  .fotoTanz{
+    height: 240px;
+    width: 250px;
+    margin-top: -35px;
+    margin-left: 100px;
+  }
+
+  .facebook{
+    margin-left: 215px;
+  }
+}

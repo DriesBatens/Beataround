@@ -1,0 +1,364 @@
+body{
+margin-left: auto;
+margin-right: auto;
+padding: 30px;
+width: 1050px;
+font-family: arial;
+background-image: url("./album afbeeldingen/achtergrond.png");
+background-size: 100%;
+}
+
+#main{
+  border: 2pt solid black;
+  width: 600px;
+  height: 352px;
+  margin-left: 220px;
+  margin-top: 220px;
+  position:absolute;
+  text-align: center;
+  background-color: rgba(105, 198, 222, 0.8);
+  border-radius: 5%;
+  display: none;
+}
+
+.transbox {
+  margin: 30px;
+  color: black;
+}
+
+
+h1{
+  font-size: 50pt;
+  font-weight: bold;
+  padding-top: 20px;
+  color: rgb(232, 43, 136);
+
+}
+
+h2{
+  font-size: 30pt;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  color: rgb(232, 43, 136);
+}
+
+#main .kies{
+  padding-bottom: 15px;
+  font-weight: bold;
+  font-size: 15pt;
+  color: rgb(232, 43, 136);
+
+}
+
+#main .button{
+  margin-bottom: 8px;
+  font-weight: bold;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  width: 150px;
+  height: 20px;
+  margin-left: 35%;
+  padding: 2px;
+  color: white;
+  background-color: rgb(232, 43, 136);
+}
+
+#main .button:hover{
+cursor: pointer;
+border-top: 2px solid black;
+border-right: 2px solid black;
+border-bottom: 1px solid black;
+border-left: 1px solid black;
+
+}
+
+.album p{
+  width: 150px;
+  height: 150px;
+  border: 1pt solid black;
+  border-radius: 5%;
+}
+
+
+
+.left {
+float: left;
+margin-top: 23px;
+margin-bottom: 25px;
+}
+
+.left p{
+  margin: 7.34px;
+  margin-bottom: 25px;
+  margin-top: 23px;
+  background-color: lightgrey;
+  background-size: cover;
+  background-position-x: center;
+  background-blend-mode: multiply;
+  border: 5px solid rgb(240, 131, 28);
+}
+
+.left p:hover{
+  background-color: white;
+
+}
+
+.right {
+  float: right;
+  margin-top: 23px;
+  margin-bottom: 25px;
+}
+
+
+.right p{
+  margin: 7.34px;
+  margin-bottom: 25px;
+  margin-top: 23px;
+  background-color: lightgrey;
+  background-size: cover;
+  background-position-x: center;
+  background-blend-mode: multiply;
+  border: 5px solid rgb(240, 131, 28);
+}
+
+.right p:hover{
+  background-color: white;
+}
+
+.bottom {
+  clear: both;
+}
+
+.bottom p{
+  float: left;
+  margin: 7.34px;
+  background-color: lightgrey;
+  background-size: cover;
+  background-position-x: center;
+  background-blend-mode: multiply;
+  border: 5px solid rgb(224, 73, 148);
+}
+
+.bottom p:hover{
+  background-color: white;
+}
+
+.top p{
+float: left;
+margin: 7.34px;
+background-color: lightgrey;
+background-size: cover;
+background-position-x: center;
+background-blend-mode: multiply;
+border: 5px solid rgb(96, 193, 201);
+}
+
+.top p:hover{
+  background-color: white;
+}
+
+.album1{
+  background-image: url("./album afbeeldingen/logo.gif");
+  background-size: 100%;
+}
+
+.album2{
+  background-image: url("./album afbeeldingen/logo.gif");
+  background-size: 100%;
+}
+
+.album3{
+  background-image: url("./album afbeeldingen/logo.gif");
+  background-size: 100%;
+}
+
+.album4{
+  background-image: url("./album afbeeldingen/logo.gif");
+  background-size: 100%;
+}
+.album5{
+  background-image: url("./album afbeeldingen/logo.gif");
+  background-size: 100%;
+}
+.album6{
+  background-image: url("./album afbeeldingen/logo.gif");
+  background-size: 100%;
+}
+.album7{
+  background-image: url("./album afbeeldingen/logo.gif");
+  background-size: 100%;
+}
+
+.album8{
+  background-image: url("./album afbeeldingen/logo.gif");
+  background-size: 100%;
+}
+
+.album9{
+  background-image: url("./album afbeeldingen/logo.gif");
+  background-size: 100%;
+}
+
+.album10{
+  background-image: url("./album afbeeldingen/logo.gif");
+  background-size: 100%;
+}
+
+.album11{
+  background-image: url("./album afbeeldingen/logo.gif");
+  background-size: 100%;
+}
+
+.album12{
+  background-image: url("./album afbeeldingen/logo.gif");
+  background-size: 100%;
+}
+
+.album13{
+  background-image: url("./album afbeeldingen/logo.gif");
+  background-size: 100%;
+}
+
+.album14{
+  background-image: url("./album afbeeldingen/logo.gif");
+  background-size: 100%;
+}
+
+.album15{
+  background-image: url("./album afbeeldingen/logo.gif");
+  background-size: 100%;
+}
+
+.album16{
+  background-image: url("./album afbeeldingen/logo.gif");
+  background-size: 100%;
+}
+
+
+@media (max-width: 1000px){
+
+.top{
+  margin-left: 50px;
+}
+
+.bottom p{
+  margin-top: 420px;
+}
+
+.bottom{
+  margin-left: 50px;
+}
+
+.album5{
+  display: none;
+}
+.album6{
+  display: none;
+}
+.album15{
+  display: none;
+}
+.album16{
+  display: none;
+}
+
+.right{
+  display:none;
+}
+
+.left{
+  display:none;
+}
+  body{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 213, 62);
+  }
+
+  #main{
+    width: 600px;
+    margin-left: 100px;
+    margin-top: 200px;
+    display: none;
+  }
+}
+
+
+@media (max-width: 600px){
+  .top{
+    margin-left: 75px;
+  }
+
+  .bottom p{
+    margin-top: 420px;
+  }
+
+  .bottom{
+    margin-left: 75px;
+  }
+
+  .album5{
+    display: none;
+  }
+  .album6{
+    display: none;
+  }
+  .album15{
+    display: none;
+  }
+  .album16{
+    display: none;
+  }
+  .album3{
+    display: none;
+  }
+  .album4{
+    display: none;
+  }
+  .album13{
+    display: none;
+  }
+  .album14{
+    display: none;
+  }
+
+  .right{
+    display:none;
+  }
+
+  .left{
+    display:none;
+  }
+
+    body{
+      width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: rgb(255, 213, 62);
+    }
+
+    #main{
+      width: 400px;
+      margin-left: 50px;
+      margin-top: 200px;
+      display: none;
+    }
+
+    h1{
+      font-size: 40pt;
+      padding-top: 0px;
+    }
+
+    h2{
+      font-size: 25pt;
+      padding-bottom: 40px;
+    }
+
+    #main .button{
+      margin-left: 100px;
+    }
+}

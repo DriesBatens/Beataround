@@ -1,0 +1,749 @@
+body{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  font-family: helvetica;
+  background-image: url("../Afbeeldingen/achtergrond.png");
+  background-size: 100%;
+  background-repeat: repeat-y;
+}
+
+
+.logo{
+  background-image: url("../Afbeeldingen/logo.gif");
+  background-size: 100%;
+  height: 155px;
+  width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.blue{
+  background-color: rgb(96, 193, 201);
+  height: 80px;
+  margin-top: 10px;
+}
+
+.orange{
+  margin-top: -40px;
+  background-color: rgb(240, 131, 28);
+  height: 80px;
+}
+
+.roze{
+  margin-top: -40px;
+  background-color: rgb(224, 73, 148);
+  height: 80px;
+}
+
+nav{
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 12px;
+}
+
+li{
+  display: inline;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+  font-size: 20px;
+}
+
+a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.home{
+  border: 5px solid rgb(224, 73, 148);
+  height: 2000px;
+  padding: 20px;
+  margin-bottom: 20px;
+  padding-left: 50px;
+  text-align: center;
+  background-color: rgb(235, 209, 0);
+}
+
+h1{
+  font-family: 'Concert One', cursive;
+  font-size: 40pt;
+  text-shadow:  1px  1px 2px black, 1px -1px 2px black, -1px  1px 2px black, -1px -1px 2px black;
+  color: rgb(224, 73, 148);
+  margin-bottom: 20px;
+  margin-top: 50px;
+  margin-left: -50px;
+}
+
+p{
+  font-family: 'Lato', sans-serif;
+  font-size: 12pt;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.albums p{
+  width: 200px;
+  height: 200px;
+  border: 1pt solid black;
+  border-radius: 5%;
+}
+
+.didi1{
+  background-size: 100%;
+  float: left;
+  margin-right: 50px;
+  margin-left: 55px;
+  background-image: url("../album afbeeldingen/");
+}
+
+.didi2{
+  background-size: 100%;
+  float: left;
+  margin-right: 50px;
+  background-image: url("../album afbeeldingen/");
+}
+
+.didi3{
+  background-size: 120%;
+  float: left;
+  margin-right: 50px;
+  background-image: url("../album afbeeldingen/");
+}
+
+.didi4{
+  background-size: 100%;
+  float: left;
+  background-image: url("../album afbeeldingen/");
+}
+
+.duo1{
+  background-size: 100%;
+  float: left;
+  margin-right: 50px;
+  margin-left: 55px;
+  background-image: url("../album afbeeldingen/");
+}
+
+.duo2{
+  background-size: 100%;
+  float: left;
+  margin-right: 50px;
+  background-image: url("../album afbeeldingen/");
+}
+
+.duo3{
+  background-size: 100%;
+  float: left;
+  margin-right: 50px;
+  background-image: url("../album afbeeldingen/");
+}
+
+.duo4{
+  background-size: 100%;
+  float: left;
+  background-image: url("../album afbeeldingen/");
+}
+
+.licious1{
+  background-size: 100%;
+  float: left;
+  margin-right: 50px;
+  margin-left: 55px;
+  background-image: url("../album afbeeldingen/");
+}
+
+.licious2{
+  background-size: 100%;
+  float: left;
+  margin-right: 50px;
+  background-image: url("../album afbeeldingen/");
+}
+
+.licious3{
+  background-size: 100%;
+  float: left;
+  margin-right: 50px;
+  background-image: url("../album afbeeldingen/");
+}
+
+.licious4{
+  background-size: 100%;
+  float: left;
+  background-image: url("../album afbeeldingen/");
+}
+
+.tanz1{
+  background-size: 100%;
+  float: left;
+  margin-right: 50px;
+  margin-left: 55px;
+  background-image: url("../album afbeeldingen/");
+}
+
+.tanz2{
+  background-size: 100%;
+  float: left;
+  margin-right: 50px;
+  background-image: url("../album afbeeldingen/");
+}
+
+.tanz3{
+  background-size: 100%;
+  float: left;
+  margin-right: 50px;
+  background-image: url("../album afbeeldingen/");
+}
+
+.tanz4{
+  background-size: 100%;
+  float: left;
+  background-image: url("../album afbeeldingen/");
+}
+
+.btn-style{
+	border : solid 3px rgb(224, 73, 148);
+	border-radius : 3px;
+	font-size : 20px;
+	color : white;
+	padding : 1px 17px;
+	background-color: rgb(96, 193, 201);
+  margin-top: 30px;
+  margin-right: 49px;
+  width: 200px;
+  height: 40px;
+  font-weight: bold;
+}
+
+.btn-style:hover{
+	border : solid 5px rgb(224, 73, 148);
+  color: rgb(255, 213, 62);
+}
+
+.underline{
+  height: 400px;
+}
+
+footer{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+input[type=submit] {
+    background-color: rgb(224, 73, 148);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(254, 73, 148);
+    color: rgb(255, 213, 62);
+}
+.facebook{
+  background-image: url("../Afbeeldingen/facebook.gif");
+  background-size: 100%;
+  height: 70px;
+  width: 90px;
+  margin-left: 555px;
+  margin-top: -20px;
+}
+
+@media (max-width: 1000px){
+
+body{
+  width: 800px;
+}
+
+.home{
+  height: 1600px;
+}
+
+nav{
+  width: 800px;
+  padding-top: 30px;
+}
+
+.albums p{
+  width: 150px;
+  height: 150px;
+  border: 1pt solid black;
+  border-radius: 5%;
+}
+
+.didi1{
+  float: left;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.didi2{
+  float: left;
+  margin-right: 20px;
+}
+
+.didi3{
+  float: left;
+  margin-right: 20px;
+}
+
+.didi4{
+  float: left;
+}
+
+.btn-style{
+	font-size : 15px;
+  margin-top: 30px;
+  margin-right: 20px;
+  width: 150px;
+  height: 30px;
+}
+
+.duo1{
+  float: left;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.duo2{
+  margin-right: 20px;
+}
+
+.duo3{
+  margin-right: 20px;
+}
+
+.licious1{
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.licious2{
+  margin-right: 20px;
+}
+
+.licious3{
+  margin-right: 20px;
+}
+
+.tanz1{
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.tanz2{
+  margin-right: 20px;}
+
+.tanz3{
+  margin-right: 20px;
+}
+
+h1{
+  margin-top: 20px;
+}
+
+.underline{
+  height: 350px;
+}
+
+.facebook{
+  margin-left: 365px;
+}
+}
+
+
+@media (max-width: 600px){
+  body{
+    width: 500px;
+  }
+
+  .home{
+    text-align: center;
+    height: 5100px;
+  }
+
+  li{
+    display: block;
+  }
+
+  nav{
+    width: 400px;
+    padding-top: 0px;
+  }
+
+  .roze{
+    height: 220px;
+  }
+
+  .didi1{
+    float: none;
+    margin-right: auto;
+    margin-bottom: 80px;
+    margin-left: 90px;
+  }
+
+  .didi2{
+    float: left;
+    margin-right: 20px;
+    float: none;
+    margin-left: 90px;
+    margin-bottom: 80px;
+
+  }
+
+  .didi3{
+    float: left;
+    margin-right: 20px;
+    float: none;
+  margin-left: 90px;
+    margin-bottom: 80px;
+
+  }
+
+  .didi4{
+    float: left;
+    float: none;
+  margin-left: 90px;
+    margin-bottom: 80px;
+
+  }
+
+  .btn-style{
+  	font-size : 15px;
+    margin-top: 30px;
+    margin-right: 20px;
+    width: 150px;
+    height: 30px;
+  }
+
+  .duo1{
+    float: none;
+    margin-right: 20px;
+    margin-left: 90px;
+    margin-bottom: 80px;
+  }
+
+  .duo2{
+    margin-right: 20px;
+    float: none;
+    margin-bottom: 80px;
+  margin-left: 90px;
+  }
+
+  .duo3{
+    margin-right: 20px;
+    float: none;
+    margin-bottom: 80px;
+    margin-left: 90px;
+  }
+
+  .duo4{
+    float: none;
+    margin-bottom: 80px;
+    margin-left: 90px;
+  }
+
+  .licious1{
+    margin-right: 20px;
+    margin-left: 0px;
+    float: none;
+    margin-bottom: 80px;
+    margin-left: 90px;
+  }
+
+  .licious2{
+    margin-right: 20px;
+    float: none;
+    margin-bottom: 80px;
+    margin-left: 90px;
+  }
+
+  .licious3{
+    margin-right: 20px;
+    float: none;
+    margin-bottom: 80px;
+    margin-left: 90px;
+  }
+
+  .licious4{
+    float: none;
+    margin-bottom: 80px;
+    margin-left: 90px;
+  }
+
+  .tanz1{
+    margin-right: 20px;
+    margin-left: 0px;
+    float: none;
+    margin-bottom: 80px;
+    margin-left: 90px;
+  }
+
+  .tanz2{
+    margin-right: 20px;
+    float: none;
+    margin-bottom: 80px;
+    margin-left: 90px;
+}
+
+  .tanz3{
+    margin-right: 20px;
+    float: none;
+    margin-bottom: 80px;
+    margin-left: 90px;
+  }
+
+  .tanz4{
+    float: none;
+    margin-bottom: 80px;
+    margin-left: 90px;
+  }
+
+  .underline{
+    height: 1200px;
+  }
+
+  .albums p{
+    width: 200px;
+    height: 200px;
+    border: 1pt solid black;
+    border-radius: 5%;
+  }
+
+  .facebook{
+    margin-left: 215px;
+  }
+
+  .btn-style{
+  	font-size : 15px;
+    margin-top: 0px;
+    margin-right: 0px;
+    width: 150px;
+    height: 30px;
+  }
+
+  h1{
+    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-left: -35px;
+  }
+
+  #een{
+    font-size : 20px;
+    color : white;
+    padding : 1px 17px;
+    margin-top: -910px;
+    margin-right: 0px;
+    margin-left: -120px;
+    width: 200px;
+    height: 40px;
+    position: absolute;
+  }
+
+  #twee{
+    font-size : 20px;
+    color : white;
+    padding : 1px 17px;
+    margin-top: -630px;
+    margin-right: 0px;
+    margin-left: -120px;
+    width: 200px;
+    height: 40px;
+    position: absolute;
+  }
+
+  #drie{
+    font-size : 20px;
+    color : white;
+    padding : 1px 17px;
+    margin-top: -350px;
+    margin-right: 0px;
+    margin-left: -120px;
+    width: 200px;
+    height: 40px;
+    position: absolute;
+  }
+
+  #vier{
+    font-size : 20px;
+    color : white;
+    padding : 1px 17px;
+    margin-top: -70px;
+    margin-right: 0px;
+    margin-left: -120px;
+    width: 200px;
+    height: 40px;
+    position: absolute;
+  }
+
+  #vijf{
+    font-size : 20px;
+    color : white;
+    padding : 1px 17px;
+    margin-top: -910px;
+    margin-right: 0px;
+    margin-left: -120px;
+    width: 200px;
+    height: 40px;
+    position: absolute;
+  }
+
+  #zes{
+    font-size : 20px;
+    color : white;
+    padding : 1px 17px;
+    margin-top: -630px;
+    margin-right: 0px;
+    margin-left: -120px;
+    width: 200px;
+    height: 40px;
+    position: absolute;
+  }
+
+  #zeven{
+    font-size : 20px;
+    color : white;
+    padding : 1px 17px;
+    margin-top: -350px;
+    margin-right: 0px;
+    margin-left: -120px;
+    width: 200px;
+    height: 40px;
+    position: absolute;
+  }
+
+  #acht{
+    font-size : 20px;
+    color : white;
+    padding : 1px 17px;
+    margin-top: -70px;
+    margin-right: 0px;
+    margin-left: -120px;
+    width: 200px;
+    height: 40px;
+    position: absolute;
+  }
+
+  #negen{
+    font-size : 20px;
+    color : white;
+    padding : 1px 17px;
+    margin-top: -910px;
+    margin-right: 0px;
+    margin-left: -120px;
+    width: 200px;
+    height: 40px;
+    position: absolute;
+  }
+
+  #tien{
+    font-size : 20px;
+    color : white;
+    padding : 1px 17px;
+    margin-top: -630px;
+    margin-right: 0px;
+    margin-left: -120px;
+    width: 200px;
+    height: 40px;
+    position: absolute;
+  }
+
+  #elf{
+    font-size : 20px;
+    color : white;
+    padding : 1px 17px;
+    margin-top: -350px;
+    margin-right: 0px;
+    margin-left: -120px;
+    width: 200px;
+    height: 40px;
+    position: absolute;
+  }
+
+  #twaalf{
+    font-size : 20px;
+    color : white;
+    padding : 1px 17px;
+    margin-top: -70px;
+    margin-right: 0px;
+    margin-left: -120px;
+    width: 200px;
+    height: 40px;
+    position: absolute;
+  }
+
+  #dertien{
+    font-size : 20px;
+    color : white;
+    padding : 1px 17px;
+    margin-top: -910px;
+    margin-right: 0px;
+    margin-left: -120px;
+    width: 200px;
+    height: 40px;
+    position: absolute;
+  }
+
+  #veertien{
+    font-size : 20px;
+    color : white;
+    padding : 1px 17px;
+    margin-top: -630px;
+    margin-right: 0px;
+    margin-left: -120px;
+    width: 200px;
+    height: 40px;
+    position: absolute;
+  }
+
+  #vijftien{
+    font-size : 20px;
+    color : white;
+    padding : 1px 17px;
+    margin-top: -350px;
+    margin-right: 0px;
+    margin-left: -120px;
+    width: 200px;
+    height: 40px;
+    position: absolute;
+  }
+
+  #zestien{
+    font-size : 20px;
+    color : white;
+    padding : 1px 17px;
+    margin-top: -70px;
+    margin-right: 0px;
+    margin-left: -120px;
+    width: 200px;
+    height: 40px;
+    position: absolute;
+  }
+
+  input[type=submit] {
+      background-color: rgb(224, 73, 148);
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 20px;
+      margin-top: 50px;
+      margin-left: -35px;
+  }
+}
