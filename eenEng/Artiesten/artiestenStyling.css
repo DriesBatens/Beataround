@@ -5,8 +5,7 @@ body{
   font-family: helvetica;
   background-image: url("../Afbeeldingen/achtergrond.png");
   background-size: 100%;
-  background-repeat: repeat-y;
-
+  background-repeat: repeat;
 }
 
 
